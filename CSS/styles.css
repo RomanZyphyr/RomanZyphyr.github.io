@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: tomato;
+
+
+
+}
+
+section {
+    margin-left: 30px;
+
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+header{
+    text-align: center;
+    background: white;
+    color: blueviolet;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+.container1{
+    width: 1300px ;
+    background: darkgrey;
+    display: inline;
+
+}
+.container2{
+    background: wheat;
+
+
+
+}
+.containerM{
+    display: flex;
+}
+
+
+.education, .skills, .projects, .links, .personal1 {
+    border-top: 5px solid blueviolet;
+    padding-top: 20px;
+}
+
+.education h2, .skills h2, .links h2, .personal1 h2  {
+    color: white;
+}
+.projects h2,.personal2 h2{
+    color: blueviolet;
+}
+.links {
+    text-align: center;
+    margin-right: 30px;
+}
+.personal2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+.profile-picture {
+  display: flex;
+  justify-content: center; 
+}
+.profile-picture img {
+  width: 130px; 
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1); 
+}
+
+
